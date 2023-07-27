@@ -44,7 +44,11 @@
 //         alert('Great language too :D');
 // }
 
-let morocco = 33;
-let avrPopu = 33 < morocco ? 'above' : 'below';
+// let morocco = 33;
+// let avrPopu = 33 < morocco ? 'above' : 'below';
 
-console.log(`morocco population is ${avrPopu} average`);
+// console.log(`morocco population is ${avrPopu} average`);
+
+let price = 275;
+let tip = price >= 50 && price <= 300 ? (price * 15) / 100 : (price * 20) / 100
+console.log(`the bill was ${price}, the tip was ${tip}, and the total is ${price + tip}`)
