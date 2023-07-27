@@ -43,3 +43,8 @@
 //     default:
 //         alert('Great language too :D');
 // }
+
+let morocco = 33;
+let avrPopu = 33 < morocco ? 'above' : 'below';
+
+console.log(`morocco population is ${avrPopu} average`);
