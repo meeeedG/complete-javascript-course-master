@@ -49,6 +49,6 @@
 
 // console.log(`morocco population is ${avrPopu} average`);
 
-let price = 40;
-let tip = price >= 50 && price <= 300 ? price * 15 / 100 : price * 20 / 100
-console.log(`the bill was ${price}, the tip was ${tip}, and the total is ${price + tip}`)
+// let price = 430;
+// let tip = price >= 50 && price <= 300 ? (price * 15) / 100 : (price * 20) / 100
+// console.log(`the bill was ${price}, the tip was ${tip}, and the total is ${price + tip}`)
